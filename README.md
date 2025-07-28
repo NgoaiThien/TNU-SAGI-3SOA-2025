@@ -19,10 +19,10 @@ This project provides tools for analyzing polarization data from astronomical FI
 #### 1. Create Conda Environment
 ```bash
 # Create a new conda environment with Python 3.10
-conda create -n polarization python=3.10 -y
+conda create -n astro_env python=3.10 -y
 
 # Activate the environment
-conda activate polarization
+conda activate astro_env
 ```
 
 #### 2. Install Dependencies
@@ -31,14 +31,8 @@ conda activate polarization
 pip install -r requirement.txt
 ```
 
-#### 3. Launch Jupyter Notebook
-```bash
-# Start Jupyter Notebook
-jupyter notebook
-```
-
 #### 4. Usage
-1. Open `PolarizationImageProcessing.ipynb` in Jupyter
+1. Open `PolarizationImageProcessing.ipynb`
 2. Run the notebook cells to launch the file browser interface
 3. Select the folder containing your polarization FITS files (.fit format)
 4. The notebook will automatically:
@@ -49,21 +43,14 @@ jupyter notebook
    - Save results as new images and FITS files
 
 #### Expected File Structure
+data can download from here: https://drive.google.com/drive/folders/1OTJtV5GIIWs21TsoNHPQ2TMubLmitLXK?usp=drive_link
 ```
 your_data_folder/
-├── image_0deg.fit    # 0° polarization
-├── image_45deg.fit   # 45° polarization  
-├── image_90deg.fit   # 90° polarization
-└── image_135deg.fit  # 135° polarization
+├── Moon3-0004-0.fit    # 0° polarization
+├── Moon3-0004-45.fit   # 45° polarization  
+├── Moon3-0004-90.fit   # 90° polarization
+└── Moon3-0004-135.fit  # 135° polarization
 ```
-
-#### Output
-The script will create a `polarization_output` folder containing:
-- Polarization analysis plots
-- Stokes parameter FITS files
-- Vector plots showing polarization directions
-
----
 
 ## Vietnamese
 
@@ -80,10 +67,10 @@ Dự án này cung cấp các công cụ để phân tích dữ liệu phân c�
 #### 1. Tạo môi trường Conda
 ```bash
 # Tạo môi trường conda mới với Python 3.10
-conda create -n polarization python=3.10 -y
+conda create -n astro_env python=3.10 -y
 
 # Kích hoạt môi trường
-conda activate polarization
+conda activate astro_env
 ```
 
 #### 2. Cài đặt các gói phụ thuộc
@@ -110,12 +97,13 @@ jupyter notebook
    - Lưu kết quả dưới dạng hình ảnh và tệp FITS mới
 
 #### Cấu trúc tệp mong đợi
+Dữ liệu có thể tải từ đây: https://drive.google.com/drive/folders/1OTJtV5GIIWs21TsoNHPQ2TMubLmitLXK?usp=drive_link
 ```
 thu_muc_du_lieu/
-├── image_0deg.fit    # Phân cực 0°
-├── image_45deg.fit   # Phân cực 45°
-├── image_90deg.fit   # Phân cực 90°
-└── image_135deg.fit  # Phân cực 135°
+├── Moon3-0004-0.fit    # Phân cực 0°
+├── Moon3-0004-45.fit   # Phân cực 45°
+├── Moon3-0004-90.fit   # Phân cực 90°
+└── Moon3-0004-135.fit  # Phân cực 135°
 ```
 
 #### Kết quả đầu ra
