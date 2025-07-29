@@ -4,6 +4,50 @@
 
 ---
 
+## Quick Start (English)
+
+1. **Install Git (if not installed):**  
+   Download and install Git from: https://git-scm.com/downloads
+2. **Clone the repository:**
+   ```bash
+   git clone <your-repo-url>
+   cd <your-repo-folder>
+   ```
+3. **(Recommended) Use Python 3.10:**  
+   - If you do not use conda, download Python 3.10 from https://www.python.org/downloads/release/python-3100/
+   - Make sure to check "Add Python to PATH" during installation.
+4. **Install dependencies:**
+   ```bash
+   pip install -r requirement.txt
+   ```
+5. **Launch Jupyter Notebook:**
+   ```bash
+   jupyter notebook
+   ```
+6. **Open `PolarizationImageProcessing.ipynb` and run all cells.**
+
+## Hướng dẫn nhanh (Tiếng Việt)
+
+1. **Cài đặt Git (nếu chưa có):**  
+   Tải và cài đặt Git tại: https://git-scm.com/downloads
+2. **Tải mã nguồn về máy:**
+   ```bash
+   git clone <your-repo-url>
+   cd <your-repo-folder>
+   ```
+3. **(Khuyến nghị) Sử dụng Python 3.10:**  
+   - Nếu không dùng conda, tải Python 3.10 tại https://www.python.org/downloads/release/python-3100/
+   - Nhớ chọn "Add Python to PATH" khi cài đặt.
+4. **Cài đặt các gói phụ thuộc:**
+   ```bash
+   pip install -r requirement.txt
+   ```
+5. **Khởi động Jupyter Notebook:**
+   ```bash
+   jupyter notebook
+   ```
+6. **Mở `PolarizationImageProcessing.ipynb` và chạy tất cả các cell.**
+
 ## English
 
 ### Overview
@@ -31,10 +75,16 @@ conda activate astro_env
 pip install -r requirement.txt
 ```
 
+#### 3. Launch Jupyter Notebook
+```bash
+# Launch Jupyter Notebook
+jupyter notebook
+```
+
 #### 4. Usage
-1. Open `PolarizationImageProcessing.ipynb`
-2. Run the notebook cells to launch the file browser interface
-3. Select the folder containing your polarization FITS files (.fit format)
+1. Open `PolarizationImageProcessing.ipynb` in Jupyter
+2. Run all cells in the notebook to start the file browser interface
+3. Select the folder containing your polarization FITS files (.fit)
 4. The notebook will automatically:
    - Load 4 polarization images
    - Calculate Stokes parameters (I, Q, U, V)
@@ -87,7 +137,7 @@ jupyter notebook
 
 #### 4. Cách sử dụng
 1. Mở `PolarizationImageProcessing.ipynb` trong Jupyter
-2. Chạy các cell của notebook để khởi động giao diện duyệt tệp
+2. Chạy tất cả các cell của notebook để khởi động giao diện duyệt tệp
 3. Chọn thư mục chứa các tệp FITS phân cực (.fit)
 4. Notebook sẽ tự động:
    - Tải 4 hình ảnh phân cực
