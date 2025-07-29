@@ -10,8 +10,8 @@
    Download and install Git from: https://git-scm.com/downloads
 2. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+   git clone https://github.com/DanielQH07/TNU-SAGI-3SOA-2025.git
+   cd TNU-SAGI-3SOA-2025
    ```
 3. **(Recommended) Use Python 3.10:**  
    - If you do not use conda, download Python 3.10 from https://www.python.org/downloads/release/python-3100/
@@ -32,8 +32,8 @@
    Tải và cài đặt Git tại: https://git-scm.com/downloads
 2. **Tải mã nguồn về máy:**
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+   git clone https://github.com/DanielQH07/TNU-SAGI-3SOA-2025.git
+   cd TNU-SAGI-3SOA-2025
    ```
 3. **(Khuyến nghị) Sử dụng Python 3.10:**  
    - Nếu không dùng conda, tải Python 3.10 tại https://www.python.org/downloads/release/python-3100/
