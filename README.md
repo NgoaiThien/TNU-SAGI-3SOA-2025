@@ -16,7 +16,7 @@ This project provides tools for analyzing polarization data from astronomical FI
 
 ### Setup Instructions
 
-#### 1. Create Conda Environment
+#### 1. Create Conda Environment (optional)
 ```bash
 # Create a new conda environment with Python 3.10
 conda create -n astro_env python=3.10 -y
@@ -64,7 +64,7 @@ Dự án này cung cấp các công cụ để phân tích dữ liệu phân c�
 
 ### Hướng dẫn cài đặt
 
-#### 1. Tạo môi trường Conda
+#### 1. Tạo môi trường Conda (tùy chọn)
 ```bash
 # Tạo môi trường conda mới với Python 3.10
 conda create -n astro_env python=3.10 -y
@@ -129,3 +129,9 @@ Script sẽ tạo thư mục `polarization_output` chứa:
 ### Contact / Liên hệ
 For questions or issues, please check the code documentation or create an issue.
 Để biết thêm thông tin hoặc báo cáo vấn đề, vui lòng kiểm tra tài liệu code hoặc tạo issue.
+
+---
+
+**Special thanks to Mr. Tien Dong from Quy Nhon Observatory for providing the code.**
+**Xin cảm ơn anh Tiến Đồng từ Đài Thiên văn Quy Nhơn đã cung cấp mã nguồn.**
+
